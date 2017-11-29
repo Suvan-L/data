@@ -4,7 +4,7 @@
 
 ### 编码风格文章
 
-#### 晓风轻【晓风轻】
+#### 【晓风轻】
 - [程序员你为什么这么类累](https://zhuanlan.zhihu.com/p/28705206)
 - [我的编码习惯 - 接口定义](https://zhuanlan.zhihu.com/p/28708259)
 - [我的编码习惯 - Controller规范](https://zhuanlan.zhihu.com/p/28717374)
