@@ -4,6 +4,9 @@
 ## idea 
 ### 默认
 ```
+F2  定位到错误提示信息(shift + F2 定位到前一个)
+
+
 Ctrl + F 文本查找
 Ctrl + R 文本替换
 Ctrl + J 插入自定义代码模版（Live Templates）
@@ -19,6 +22,9 @@ Ctrl + 1...9 跳转到指定书签（Ctrl + shift 定义到指定书签）
 两下 Shift  全局文件搜索（快速打开文件， Search EveryWhere）
 Shift + F6 文件重命名
 
+Alt + 1..9 切换编辑器面板
+Alt + 方向键左右  切换标签视图
+Alt + 方向键上下  跳转文件内方法
 
 Ctrl + Alt + L 格式化代码（规范缩进，可对当前类 or 包）
 Ctrl + Alt + O 优化导入的类（调整 import 的导入为主，可对当前类 or 包）
@@ -36,7 +42,9 @@ Ctrl + shift + 空格  智能提示代码
 ### 自定义
 ```
 Ctrl + ,  [keymap: close]关闭当前页面
+
 Alt + v [keymap: Vim Enulator]启动 vim 模式
+
 ctrl + \ [keymap: AceJumpChar] 光标跳转到指定字符
 ```
 
