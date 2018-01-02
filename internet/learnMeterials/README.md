@@ -10,7 +10,13 @@
 - [我的编码习惯 - Controller规范](https://zhuanlan.zhihu.com/p/28717374)
 - [我的编程习惯 - 日志建议](https://zhuanlan.zhihu.com/p/28629319)
 - [我的编码习惯 - 异常处理](https://zhuanlan.zhihu.com/p/29005176)
- -[我的编码习惯 - 参数校验和国际化规范](https://zhuanlan.zhihu.com/p/29129469)
- - [我的编码习惯 - 配置规范](https://zhuanlan.zhihu.com/p/29191233)
- - [我的编码习惯 - 函数编写建议（附完整源码）](https://zhuanlan.zhihu.com/p/29390147)
- - [我的编码习惯 - 如何应对需求变更](https://zhuanlan.zhihu.com/p/28719726)
+- [我的编码习惯 - 参数校验和国际化规范](https://zhuanlan.zhihu.com/p/29129469)
+- [我的编码习惯 - 配置规范](https://zhuanlan.zhihu.com/p/29191233)
+- [我的编码习惯 - 函数编写建议（附完整源码）](https://zhuanlan.zhihu.com/p/29390147)
+- [我的编码习惯 - 如何应对需求变更](https://zhuanlan.zhihu.com/p/28719726)
+
+
+## CSDN
+
+### 面试题类型
+- [互联网公司面试问题总结之java基础知识](http://blog.csdn.net/u011863767/article/details/52824718)
