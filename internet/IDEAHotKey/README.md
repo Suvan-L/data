@@ -49,6 +49,138 @@ ctrl + \ [keymap: AceJumpChar] 光标跳转到指定字符
 ```
 
 
+### idea 快捷功能
+```
+跳转
+	项目间跳转 Next(Previous) Project Window
+	上次编辑处跳转  Next(Last) Edit Location
+	前后跳转 Back(Forward)
+	书签跳转 Bookmarks
+	编辑区跳转到文件区（Alt + 1）
+	文件区跳到编辑区（ESC）
+
+收藏
+	单独加入收藏列表 Add to Favorites 【可自定义标签（类 or 函数）】
+	显示收藏书签列表 Favorites
+
+查询
+	查询快捷键	Find Action
+	显示最近打开文件 Recent File
+
+
+搜索
+	类名搜索类 Class
+	文件名搜索文件 File
+	函数名搜索函数 Symbol(可搜索非当前文件)
+	搜素字符串 Find int Path（全局定义范围）
+	搜索使用位置 Find usages（代码，类，变量使用）
+
+列操作
+	当前选择的单词上，若存在一样，重复选中 Select All Occurrences
+	
+移动
+	单词移动到前面 Move Caret to Line End
+	单词移动到后面 Move Caret to Line End
+	定位到错误 F2
+
+转换
+	选中转为大写 Toggle Case
+
+补全
+	智能补全 Show Intention on Actions（快捷键：alt + enter）
+		- 实现接口
+		- 单词拼写提示
+		- 导包
+		- 自动创建函数（先使用，再生成）
+		- list replace（重构时，可以直接把循环替换成 for-each）
+		- 字符串 format 或 build
+
+Live Templates
+	代码自定义模版
+
+pstfix Completion
+	【无法编辑，默认定义好的，这是与 Live Templates的不同】
+	生成模版参数（代码. -> 出现提示）
+
+
+重构
+	重构变量 Refactor-Rename (自动选中所有引用的地方，同时修改)
+	重构方法 Refactor-ChangeSingnature (先修改使用地方，自动补全原函数)
+
+抽取
+	抽取局部变量 Refactor-Extract-Variable 
+	抽取静态变量 
+	抽取成员变量
+	抽取方法参数
+	抽取函数 Extract Method
+
+
+git 集成
+	显示代码版本信息 Annotate（也可在行号栏，右键点击）
+	移动到项目所改动的地方 Previous Change
+	撤销，包括单个和项目改动之处 Revert
+	撤销文件修改 Revert Changes（光标移动到空行）
+
+local history 本地版本控制
+	idea自带的版本控制 Put Label （记录提交）
+
+
+关联
+	与 Spring 关联 
+		 -【设置】
+		 		-> Project Structure 
+		 		-> Facets 
+		 		-> 新建一个 Facets，设置配置文件'+' 
+		 		-> 添加 Spring
+		 - 代码栏会出现 Spring 关联图标（可点击）
+
+	数据库关联
+		- 【设置】
+				-> Database 设置连接
+
+
+断点调试
+	添加断点 Run - Toggle Line Breakpoint  
+	单步运行 Run - Debug（F8 一行一行运行）
+	跳到下个断点 Resume Program（若无错，则继续运行）
+	查看所有断点 Breakpoints
+	禁止所有断点 Mute Breakpoints
+	条件断点 添加断点时，设置 Condition
+	表达式求值 Evaluate Expression (展示断点值)
+	运行指定行 Run to Cursor（运行到光标指定行）
+	动态设置值 setValue(Debug 窗体直接，双击值设定)
+
+
+文件操作 
+	在当前文件同一级目录下面新建一个文件 New
+	复制当前文件 Copy（Copy 到当前目录下）
+	移动当前文件 Move（Move 到指定文件夹，剪贴）
+
+
+文本操作
+	复制文件名 （直接 Ctrl + C）
+	复制文件完整路径 （直接 shift + ctrl + C）
+	增强剪贴板功能
+		- 多复制（将多个复制存在剪贴板里）
+		- Choose Content to Paste（显示剪贴板，快捷 + 1）
+
+结构图
+	查看 file 大纲 File Structure
+
+	查看 Maven 依赖，类图 Maven - Show Dependencies（当前文件右键窗体）
+		- 出现 Maven 依赖图
+		- ctrl + m 进行搜素，可双击跳转，线条亦可点击，可以邮件操作
+
+	类图大纲 File Structure（显示类继承关系，方法调用层次）
+		- 显示调用层次 Diagram for Son
+		- 类层次 Hierarchy Class Son
+		- 函数层次 Hierarchy Calers of main（Call Hierarchy 快捷键）
+
+```
+
+
+
+
 ## ideaVim 插件
 ```
 
@@ -91,6 +223,10 @@ shift + : 跳转到输入指定行数
 shift + ? 搜索页面内容，回车后， n-向下搜索，N-向上搜索
 
 shift + : + 输入 registers 显示寄存器
+
+
+（ctrl + w） + 方向键 ，上下左右分屏跳转 
+
 
 ```
 
