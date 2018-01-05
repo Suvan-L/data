@@ -56,24 +56,24 @@ ctrl + \ [keymap: AceJumpChar] 光标跳转到指定字符
 	上次编辑处跳转  Next(Last) Edit Location
 	前后跳转 Back(Forward)
 	书签跳转 Bookmarks
-	编辑区跳转到文件区（Alt + 1）
-	文件区跳到编辑区（ESC）
+	编辑区跳转到文件区 [Alt + 1]
+	文件区跳到编辑区 [ESC]
 
 收藏
 	单独加入收藏列表 Add to Favorites 【可自定义标签（类 or 函数）】
-	显示收藏书签列表 Favorites
+	显示收藏书签列表 Favorites Alt + 2]
 
 查询
-	查询快捷键	Find Action
-	显示最近打开文件 Recent File
+	查询快捷键	Find Action [Ctrl + Shift + a]
+	显示最近打开文件 Recent File [Alt + Shift + c]
 
 
 搜索
-	类名搜索类 Class
-	文件名搜索文件 File
-	函数名搜索函数 Symbol(可搜索非当前文件)
-	搜素字符串 Find int Path（全局定义范围）
-	搜索使用位置 Find usages（代码，类，变量使用）
+	类名搜索类 Class [Ctrl + n]
+	文件名搜索文件 File [Ctrl + Shift + n]
+	函数名搜索函数 Symbol [Ctrl + Shift + alt + n]
+	搜素字符串 Find int Path（全局定义范围） [Ctrl + Shift + f]
+	搜索使用位置 Find usages（代码，类，变量被使用情况） [Alt + F7]
 
 列操作
 	当前选择的单词上，若存在一样，重复选中 Select All Occurrences
