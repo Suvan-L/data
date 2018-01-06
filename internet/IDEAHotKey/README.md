@@ -46,6 +46,10 @@ Ctrl + ,  [keymap: close]关闭当前页面
 Alt + v [keymap: Vim Enulator]启动 vim 模式
 
 ctrl + \ [keymap: AceJumpChar] 光标跳转到指定字符
+
+alt + \ [Local history] 查看当前文件历史
+
+alt + ` [Full Screen] 全屏
 ```
 
 
