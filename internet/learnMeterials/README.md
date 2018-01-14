@@ -61,4 +61,6 @@
 - [2017上半年技术文章集合—184篇文章分类汇总](http://mp.weixin.qq.com/s/grssAxDKeDLHhURp0qtVPg)
 
 
-
+## 尚硅谷学习资料
+- [尚硅谷学习资料](http://www.atguigu.com/opensource.shtml)
+- [在线课程视频-谷粒学园](http://www.gulixueyuan.com/)
