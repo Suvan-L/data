@@ -1,5 +1,5 @@
 ---
-title: 绘制 mind-mapping
+title: mind-mapping 学习方式
 date: 2017-10-29 08:11:26
 tags: MyProject
 categories: MyProject
