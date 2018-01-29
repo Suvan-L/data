@@ -1,47 +1,47 @@
-package jdk;
+package jdk.concurrent;
 
 /**
- * ç¼–ç¨‹é¢˜ï¼š
- *     èº«ä¸Šåªæœ‰ 10 å—é’±ï¼Œä¸€å…±å¯ä»¥å–å¤šå°‘ç“¶é…’?
- *          - 2 å—é’±ä¸€ç“¶é…’
- *          - 4 ä¸ªç“¶ç›–ä¸€ç“¶é…’
- *          - 2 ä¸ªç©ºç“¶æ¢ä¸€ç“¶é…’
+ * ¡¾±à³ÌÌâ¡¿
+ *      ÉíÉÏÖ»ÓĞ 10 ¿éÇ®£¬Ò»¹²¿ÉÒÔºÈ¶àÉÙÆ¿¾Æ?
+ *          - 2 ¿éÇ®Ò»Æ¿¾Æ
+ *          - 4 ¸öÆ¿¸ÇÒ»Æ¿¾Æ
+ *          - 2 ¸ö¿ÕÆ¿»»Ò»Æ¿¾Æ
+ *
+ *      ´ğ°¸£º15 Æ¿
+ *
+ *  Çó½â·½Ê½
+ *      - 1. ¼ÆËã¾ÆÊı£¨Ñ­»·½â·¨£©
+ *      - 2. ¼ÆËã¾ÆÊı£¨µİ¹é½â·¨£©
  *
  * @author Suvan
+ * @date 2018.01.26
  */
 public class ComputeDrink {
 
+    /**
+     * Ö÷º¯Êı
+     */
     public static void main(String [] args) {
         int buyDrink = 5;
-        int sumDrink = buyDrink + computeDrink(buyDrink, buyDrink);
-        System.out.println("10 å—é’±å¯ä»¥å–ï¼š" + sumDrink + " ç“¶é…’ï¼");
+
+        //method 1
+        int sumDrink = computeDrink1(buyDrink);
+        System.out.println("¡¾Ñ­»·½â·¨¡¿10 ¿éÇ®¿ÉÒÔºÈ£º" + sumDrink + " Æ¿¾Æ£¡");
+
+        //method 2
+        sumDrink = buyDrink + computeDrink2(buyDrink, buyDrink);
+        System.out.println("¡¾µİ¹é½â·¨¡¿10 ¿éÇ®¿ÉÒÔºÈ£º" + sumDrink + " Æ¿¾Æ£¡");
+
     }
 
     /**
-     * è®¡ç®—å–é…’
-     *      - é€’å½’è§£æ³•
+     * ¼ÆËã¾ÆÊı
+     *      - Ñ­»·½â·¨
      *
-     * @param x ç“¶ç›–
-     * @param y ç©ºé…’ç“¶
-     * @return int å–å¤šå°‘ç“¶é…’
+     * @param buyDrink ×î³õ¹ºÂò¶àÉÙÆ¿¾Æ
+     * @return int ×îºó¿ÉÒÔºÈ¶àÉÙÆ¿¾Æ
      */
-    private static int computeDrink(int x, int y) {
-        if (x < 4 && y < 2) {
-            return 0;
-        }
-
-        int newDrink = x / 4 + y / 2;
-        System.out.println("æ­¤åˆ»ç“¶ç›– x = " + x + "ï¼Œç©ºé…’ç“¶ y = " + y + ", å·²ç½®æ¢ " + newDrink);
-        return newDrink + computeDrink(x % 4 + newDrink, y % 2 + newDrink);
-    }
-
-    /**
-     * è®¡ç®—å–é…’æ–¹æ³• 2
-     *      - å¾ªç¯è§£æ³•
-     *
-     * @param buyDrink è´­ä¹°å¤šå°‘ç“¶é…’
-     */
-    private void computeDrinkMethod2(int buyDrink) {
+    private static int computeDrink1(int buyDrink) {
         int sumDrink = buyDrink, cap = buyDrink, bottle = buyDrink;
         int newDrink = 0;
 
@@ -52,7 +52,24 @@ public class ComputeDrink {
             cap = cap % 4 + newDrink;
             bottle = bottle % 2 + newDrink;
         }
+        return sumDrink;
+    }
 
-        System.out.println("10 å—é’±å¯ä»¥å–ï¼š" + sumDrink + " ç“¶é…’ï¼");
+    /**
+     * ¼ÆËã¾ÆÊı
+     *      - µİ¹é½â·¨
+     *
+     * @param x Æ¿¸Ç
+     * @param y ¿Õ¾ÆÆ¿
+     * @return int ºÈ¶àÉÙÆ¿¾Æ
+     */
+    private static int computeDrink2(int x, int y) {
+        if (x < 4 && y < 2) {
+            return 0;
+        }
+
+        int newDrink = x / 4 + y / 2;
+        System.out.println("´Ë¿ÌÆ¿¸Ç x = " + x + "£¬¿Õ¾ÆÆ¿ y = " + y + ", ÒÑÖÃ»» " + newDrink);
+        return newDrink + computeDrink2(x % 4 + newDrink, y % 2 + newDrink);
     }
 }
