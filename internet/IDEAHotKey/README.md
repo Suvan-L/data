@@ -30,6 +30,7 @@ Ctrl + Alt + L 格式化代码（规范缩进，可对当前类 or 包）
 Ctrl + Alt + O 优化导入的类（调整 import 的导入为主，可对当前类 or 包）
 Ctrl + Alt + T 代码块环绕层（快捷给加入代码块加入 if else 之类）
 Ctrl + Alt + S 打开 intelliJ IDEA 系统设置
+Ctrl + Alt + B 接口跳转到实现类
 
 
 Ctrl + Shift + F 文件内容查询（整个项目）
@@ -118,7 +119,6 @@ pstfix Completion
 	抽取方法参数
 	抽取函数 Extract Method
 
-
 git 集成
 	显示代码版本信息 Annotate（也可在行号栏，右键点击）
 	移动到项目所改动的地方 Previous Change
@@ -128,6 +128,11 @@ git 集成
 local history 本地版本控制
 	idea自带的版本控制 Put Label （记录提交）
 
+
+Debug 模式
+	可用 Debug 模式运行服务器
+	断点调试
+	运行时设定测试值
 
 关联
 	与 Spring 关联 
@@ -180,7 +185,12 @@ local history 本地版本控制
 		- 类层次 Hierarchy Class Son
 		- 函数层次 Hierarchy Calers of main（Call Hierarchy 快捷键）
 
-```
+ 	页面右键 Diagrams -> Show Diagrams
+ 		-> Java Class Diagrams
+		   CDI Dependencies
+		   Spring (需光标在类名的时候)
+		   		-> 进入类图内，还可以右键各种功能显示相关依赖的关系
+```					  
 
 
 ## ideaVim 插件
