@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+        <title>注册页面</title>
+        <link rel="stylesheet" href="../extend/icon/iconfont.css"><!--图标 -->
+        <link rel="stylesheet" href="../css/register.css">
+        
+        <!--JavaScript -->
+        <script src="../js/register.js"></script>
+        <script src="../js/ajax.js"></script>
+    </head>
+    <body onload="bodywelcome()">
+        <div id="top">
+            <div id="toppicture">
+                
+            </div>
+            <div id="toptitle">
+                <h1>轻谈注册</h1>
+            </div>
+        </div>
+        <div id="middle">
+             <form action="../jsp/register.jsp" method="post" 
+             onsubmit="return checkall()">
+                <div id="middlehighchoice">
+                    <input type="button" value="高级选项"  onclick="highchoiceshow()" />
+                    <div id="middlehighchoiceone">
+                        通信地址:<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <textarea cols="35" rows="5" name="useraddr" onfocus='this.value=""'>不透露
+                        </textarea><br>&nbsp;&nbsp;&nbsp;&nbsp; 
+                        爱好:<br>
+                        <input type="checkbox" name="userhobbys" value="运动"/>运动
+                        <input type="checkbox" name="userhobbys" value="游戏"/>游戏
+                        <input type="checkbox" name="userhobbys" value="电影"/>电影
+                        <input type="checkbox" name="userhobbys" value="音乐"/>音乐
+                        <input type="checkbox" name="userhobbys" value="跳舞" />跳舞
+                        <input type="checkbox" name="userhobbys" value="不透露" checked="checked" />不透露
+                    </div>
+                </div>
+                <div id="middleregisterform">
+                        <table border="0" cellspacing="20" cellpadding="1">
+                            <tr>
+                                <td class="middleformtdfirst">
+                                    用户名
+                                </td>
+                                <td class="middleformtdsecond">
+                                    <input type="text" name="username" id="username"  class="middleformtdsecondinput"
+                                     onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                     onblur="chkuser()"
+                                     />
+                                </td>
+                                <td class="middleformtdthird">
+                                     <span id="checkusername"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">密码</td>
+                                <td class="middleformtdsecond">
+                                    <input type="password"  name="userpassword"  id="userpassword" class="middleformtdsecondinput"
+                                     onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                    />
+                                </td>
+                                <td class="middleformtdthird">
+                                    <span id="checkuserpassword"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">确认密码</td>
+                                <td class="middleformtdsecond">
+                                    <input type="password" name="userpasswordtwo" id="userpasswordtwo" class="middleformtdsecondinput"
+                                    onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                     
+                                    />
+                                </td>
+                                <td class="middleformtdthird">
+                                   <span id="checkuserpasswordtwo"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">性别</td>
+                                <td class="middleformtdsecond">
+                                    <input type="radio" name="usersex" value="男" checked/>男
+                                    <input type="radio" name="usersex" value="女"/>女
+                                </td>
+                                <td class="middleformtdthird">
+                                    <span id="checksex"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">生日</td>
+                                <td class="middleformtdsecond">
+                                    <select name="dateformat"  id="middleformtdsecondselectdateformat">
+                                        <option selected="selected" value="公历">公历</option>
+                                        <option value="农历">农历</option>
+                                    </select>
+                                    <select name="dateyear" id="middleformtdsecondselectdateyear">
+                                        <option value="1990">1990</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1996" selected="selected">1996</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1999">1999</option>
+                                        <option value="2000">2000</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2010">2010</option>
+                                    </select>
+                                    <select name="datemonth" id="middleformtdsecondselectdatemonth">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9" selected="selected">9</option>
+                                        <option value="1">10</option>
+                                        <option value="1">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <select name="dateday" id="middleformtdsecondselectdateday">
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </td>
+                                 <td class="middleformtdthird">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">所在地</td>
+                                <td class="middleformtdsecond">
+                                    <select name="addcountry" id="middleformtdsecondselectaddcountry">
+                                        <option value="中国" selected="selected">中国</option>
+                                        <option value="英国">英国</option>
+                                        <option value="美国">美国</option>
+                                        <option value="德国">德国</option>
+                                        <option value="俄罗斯">俄罗斯</option>
+                                    </select>
+                                    <select name="addprovince"  id="middleformtdsecondselectaddprovince">
+                                        <option value="广东" selected="selected">广东</option>
+                                        <option value="湖南">湖南</option>
+                                        <option value="山东">山东</option>
+                                    </select>
+                                    <select name="addcity"  id="middleformtdsecondselectaddcity">
+                                        <option value="北京">北京</option>
+                                        <option value="上海">上海</option>
+                                        <option value="广州">广州</option>
+                                        <option value="深圳" selected="selected">深圳</option>
+                                    </select>
+                                </td>
+                                <td class="middleformtdthird">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">邮箱</td>
+                                <td class="middleformtdsecond">
+                                    <input type="text" name="useremail" id="useremail"  class="middleformtdsecondinput" 
+                                    onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                    />
+                                </td>
+                                <td class="middleformtdthird">
+                                    <span id="checkuseremail"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">手机号码</td>
+                                <td class="middleformtdsecond">
+                                    <input type="text" name="userphone" id="userphone" class="middleformtdsecondinput"
+                                    onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                     />
+                                </td>
+                               <td class="middleformtdthird">
+                                    <span id="checkuserphone"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">
+                                    <input type="button" value="点击获取短信验证码"  onclick="noteverify(60)"/>
+                                </td>
+                                <td class="middleformtdsecond">
+                                    <input type="text" name="phonecode" id="phonecode" class="middleformtdsecondinput" onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                     />
+                                </td>
+                                <td class="middleformtdthird">
+                                    <span id="noteverify"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="middleformtdfirst">
+                                    输入图片中的验证码
+                                </td>
+                                <td class="middleformtdsecond">
+                                    <input type="text" name="pciturecode" id="picturecode" class="middleformtdsecondinput" 
+                                    onmouseover="inputchangecolor1(this)" 
+                                     onmouseout="inputchangecolor2(this)"
+                                     onfocus=" cleanvalue(this)"
+                                     />
+                                </td>
+                                <td class="middleformtdthird">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="middleformtdsubmit">
+                                    <input type="submit" value="提交注册" />
+                                </td>  
+                            </tr>
+                        </table>
+                </div>
+            </form>
+        </div>
+        <div id="bottom">
+             <div class="bottomintroduce">
+                <p>Suvan&nbsp;&nbsp;email:13202405189@163.com
+                &nbsp;&nbsp;neusoft school</p>
+            </div>
+            <div class="bottomlink">
+                <a href="../index.html" target="_blank">网站首页</a>
+                <a href="" target="_blank">联系方式</a>
+                <a href="" target="_blank">意见反馈</a>
+                <a href="" target="_blank">帮助</a>
+            </div>
+            <div class="bottomsign">
+                <img src="../image/my.jpeg" width="50" height="50" align="right" />
+            </div>
+            <div class="bottomicon">
+                <i class="icon iconfont">&#xe60e;</i><!--爱心-->
+                <i class="icon iconfont">&#xe609;</i><!--WIFI -->
+            </div>
+        </div>
+    </body>
+
+
+</html>

@@ -1,0 +1,232 @@
+  body{
+                margin:0px;
+                border:0px;
+                padding:0px;
+            }
+            #top{
+                position:relative;
+                margin:0px;
+                border:0px;
+                padding:0px;
+
+                width:100%;
+                height:200px;
+                background-image:url(../image/registertop.jpg);
+            }
+            #middle{
+                position:relative;
+                margin:0px;
+                border:0px;
+                padding:0px;
+
+                width:100%;
+                height:600px;
+                background-color:#FFFFF0;
+            }
+            #bottom{
+                position:relative;
+                width:100%;
+                height:151px;
+                background-color:#000000;
+            }
+
+            /*top位置*/
+            #toptitle{
+                position:relative;
+                top:60px;
+            }
+            #toptitle>h1{
+                text-align:center;
+                margin:0px;
+
+                font-size:45px;
+                font-family:YouYuan;
+                color:#E0FFFF;
+            }
+
+            /*middle位置*/
+            #middleloginform{
+                position:relative;
+                width:700px;
+                top:0px;
+                left:550px;
+            }
+            .middleformfirstbutton a{
+                text-decoration:none;
+                padding:10px;
+              
+                font-size:20px;
+                font-family:DFKai-SB;
+            }
+             .middleformfirstbutton a:hover{
+                height:100%;  
+                padding:10px;
+                color:red;
+                background-color:#FFFFE0;
+
+                /*设置圆角边框*/
+                    border-top-left-radius:10px;
+                    border-top-right-radius:10px;
+                    border-bottom-left-radius:10px;
+                    border-bottom-right-radius:10px;
+            }
+            .middleformtdbutton{
+                text-align:right;
+            }
+            .middleformtdbutton a{
+                text-decoration:none;
+                padding:0px;
+
+                color:#C0C0C0;
+            }
+            .middleformtdbutton a:hover{
+                padding:10px;
+
+                color:#8B4513;
+            }
+            .middleformtdsecondthird{
+                text-align:right;
+
+                height:100%;
+                width:55px;
+            }
+            .middleformtdsecondthirdinput{
+                height:100%;
+                width:100%;
+            }
+            .middleformtdfourthspan{
+                font-size:15px;
+                font-family:YouYuan;
+            }
+            .middleformtdfourth{
+                text-align:right;
+            }
+            .middleformtdfourth a{
+                text-decoration:none;
+
+                font-size:15px;
+                font-family:YouYuan;
+                color:#AAAAAA;
+            }
+            .middleformtdfourth a:hover{
+                color:#FF3333;
+            }
+            #middleformfifthlogin{
+                text-align:text;
+            }
+            #middleformfifthlogin a{
+                position:relative;
+                text-decoration:none;
+                padding:10px 100px 10px 100px;
+                left:10%;
+
+                color:#FDF5E6;
+                background-color:#FF0000;
+            }
+            #middleformfifthlogin a:hover{
+                color:#FDF5E6;
+                background-color:#FF8888;
+            }
+            /*保存登录状态*/
+            .middleformfifthone{
+                 text-align:left;
+                 font-family:YouYuan;
+            }
+            /*登录状态日期选择*/
+            .middleformfifthtwo{
+                 text-align:left;
+                 font-family:STSong;
+                 font-size:15px;
+            }
+            .middleformtdsixth{
+                text-align:left;
+
+                height:100%;
+            }
+            .middleformtdsixthspan{
+                width:100px;
+                font-size:15px;
+                font-family:YouYuan;
+            }
+            #middleformtdsixthsign{
+                word-spacing:10px;
+                text-align:right;
+            }
+            #middleformtdsixthsign a{
+                text-decoration:none;
+
+                color:#AAAAAA;
+            }
+            #middleformtdsixthsign #a1:hover{
+                color:#00BBFF;
+            }
+            #middleformtdsixthsign #a2:hover{
+                color:#CC0000;
+            }
+            #middleformtdsixthsign #a3:hover{
+                color:#0066FF;
+            }
+
+            /*
+                js验证用户名和密码报错信息样式
+            */
+        .middleformtdthird{
+
+                margin:0px;
+                border:0px;
+                padding:0px;
+
+                width:300px;
+                height:100%;
+
+                font-family:PMingLiU;
+                font-size:15px;
+                color:red;
+            }
+
+
+
+        /*bottom位置*/
+        .bottomintroduce{
+            position:absolute;
+            top:90px;
+            right:0px;
+
+            font-size:20px;
+            font-family:STXinwei;
+            color:#DDDDDD;
+        }
+        .bottomlink{
+            position:absolute;
+            top:60px;
+            left:20px;
+
+            font-size:17px;
+            font-family:Microsoft JhengHei;
+        }
+        .bottomlink>a{
+            text-decoration:none;/*设置链接无下划线*/
+
+            padding:10px;
+            color:#666666;
+        }
+        .bottomlink>a:hover{
+            color:#FFFAFA;
+        }
+        .bottomsign{
+            position:absolute;
+            right:495px;
+            top:90px;
+        }
+        .bottomicon{
+            position:absolute;/*图标*/
+            top:100px;
+            left:400px;
+            letter-spacing:10px;
+        }
+        .bottomicon>i{
+            color:#888888;
+        }
+        .bottomicon>i:hover{     
+            color:#DDDDDD;
+        }

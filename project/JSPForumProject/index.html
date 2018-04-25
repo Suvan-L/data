@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>论坛首页</title>
+        
+        <link rel="stylesheet" href="extend/icon/iconfont.css"><!-- 图标-->
+        <link rel="stylesheet" href="css/index_html.css">
+
+        <!--JavaScript -->
+        <script src="js/index.js"></script>
+    </head>
+
+    <body onload="bodybegin()">
+        <!--首页top -->
+        <div id="top">
+            <div class="topsign">
+                <img src="image/signpig.jpg" alt="please wait..." width="200" height="200" />
+                <span class="topspan">ime is a bird for ever on the wing. (时间是一只永远在飞翔的鸟)</span>
+            </div>
+            <div class="toptitle">
+                <h1>轻谈</h1>
+            </div>
+
+            <!-- 计时器1,现在时间-->
+            <div id="toptimeshow">
+                <span id="timeshow"></span>
+            </div>
+            <!-- 计时器2，计算今天还有多少秒-->
+
+            <div class="topicon">
+                <a href="http://www.qq.com/" target="_blank"><i class="icon iconfont">&#xe602;</i></a><!--QQ-->
+                <a href="http://weibo.com/" target="_blank"><i class="icon iconfont">&#xe605;</i></a><!--微博-->
+                <a href="https://www.zhihu.com/" target="_blank"><i class="icon iconfont">&#xe607;</i></a><!--知乎-->
+                <a href="http://www.163.com/" target="_blank"><i class="icon iconfont">&#xe604;</i></a><!--网易-->
+            </div>
+            <div class="toploginreg">
+                    <a href="html/login.html" target="_blank">登录</a>
+                    <a href="html/register.html" target="_blank">注册</a>
+            </div>
+            <div class="topcatalog">
+                    <a href="" target="_blank">首页</a>
+                    <a href="" target="_blank">贴子展示</a>
+                    <a href="" target="_blank">官方推荐</a>
+                    <a href="" target="_blank">个人空间</a>
+            </div>
+        </div>
+        <br>
+
+        <!--首页middle -->
+        <div id="middleshow">
+            <div class="middleleftcalalog">   
+                <ul>         
+                    <li><a href="">生活专题</a></li>
+                    <li><a href="">情感专题</a></li>
+                    <li><a href="">学习专题</a></li>
+                </ul>         
+            </div>
+            <div class="middlerollpicture">
+                <marquee  height="450" behavior="alternate" loop="6"onMouseOut="this.start()" direction="down"  onMouseOver="this.stop()">
+                    <a href="http://www.suvan.net.cn/" alt="图片正在加载，请稍后...">
+                        <img src="image/card.jpg" width="200" height="200" />
+                    </a>
+                </marquee>
+            </div>
+            <div class="middleleftcalalog2">
+                <ul>
+                    <li><a href="">旅行</a></li>
+                    <li><a href="">身边</a></li>
+                    <li><a href="">时光</a></li>
+                </ul>
+            </div>
+            <div id="middlefirstarticle">
+                <h1>序</h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;大家好，我是Suvan，这是一个微型论坛，我取名为"轻谈"，在这里，我将会把我的一些想法实现出来。</p>
+                <hr>
+            </div>
+            <div id="middleform">
+                <table border="0" cellspacing="1" cellpadding="5" width="1000px">
+                        <tr>
+                            <td width="200">
+                                <img src="image/yesterday.jpg" alt="please wait..." width="250" height="250"/>
+                            </td>
+                            <td width="800">
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Do not, for one repulse, forgo the purpose that you resolved to effort. ( Shakespeare ) </p>
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;不要只因一次挫败，就放弃你原来决心想达到的目的。（莎士比亚） </p>
+                             </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td width="200">
+                                <img src="image/today.jpg" alt="please wait..." width="250" height="250"/>
+                            </td>
+                            <td width="800">
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;Miracles sometimes occur, but one has to work terribly for them. ( C. Weizmann ) </p>
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;奇迹有时候是会发生的，但是你得为之拼命蒂努力。（魏茨曼） </p>
+                            </td>
+                        <tr>
+                            <td width="200">
+                                <img src="image/tommorrow.jpg" alt="please wait..." width="250" height="250"/>
+                            </td>
+                            <td width="900">
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;A certain amount of care or pain or trouble is necessary for every man at all times .A ship without a ballast is unstable and will not go straight. (Arthur Schopenhauer. Geman philosopher) </p>
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;一定的忧愁、痛苦或烦恼,对每个人都是时时必需的.一艘船如果没有压舱物,便不会稳定,不能朝着目的地一直前进.(德国哲学家 叔本华 A)  </p>
+                            </td>
+                        </tr>
+                
+                </table>
+            </div>
+
+              <div id="middleresiduetime">
+                <span id="residuetime"></span>
+            </div>
+        </div>
+
+        <!--首页bottom -->
+        <div id="bottom">
+            <div class="bottomintroduce">
+                <p>Suvan&nbsp;&nbsp;email:13202405189@163.com
+                &nbsp;&nbsp;neusoft school</p>
+            </div>
+            <div class="bottomlink">
+                <a href="" target="_blank">网站首页</a>
+                <a href="" target="_blank">联系方式</a>
+                <a href="" target="_blank">意见反馈</a>
+                <a href="" target="_blank">帮助</a>
+            </div>
+            <div class="bottomsign">
+                <img src="image/my.jpeg" width="50" height="50" align="right">
+            </div>
+            <div class="bottomicon">
+                <i class="icon iconfont">&#xe60e;</i><!--爱心-->
+                <i class="icon iconfont">&#xe609;</i><!--WIFI -->
+                <i> 
+                    <!-- 计时器-->
+                    <input type="text"  id="counttime" value="计时器..." onfocus='this.value=""' />
+                    <input type="button" value="Start" onClick="startCountTime()" />
+                    <input type="button" value="Stop" onClick="stopCountTime()" />
+                    <input type="button" value="Clean" onClick="cleanCountTime()" />
+                </i>
+            </div>
+        </div>
+    </body>
+</html>  

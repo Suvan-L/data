@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>登录框框</title>
+        <link rel="stylesheet" href="../extend/icon/iconfont.css" /><!--图标-->
+        <link rel="stylesheet" href="../css/login.css" />
+
+         <!-- JavaScript -->
+        <script src="../js/login.js"></script>
+    </head>
+    <body onload="bodywelcome()">
+        <div id="top">
+            <div id="toptitle">
+                <h1>轻谈登录</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="middleloginform">
+                <form action="../jsp/login.jsp" method="post" id="userlogin"  onsubmit="return checkall()">
+                    <table border="0" cellspacing="10" cellpadding="25">
+                        <tr>
+                            <td colspan="2" class=" middleformfirstbutton">
+                                <a href="register.html">
+                                    注册
+                                </a>
+                            </td>
+                            <td class="middleformtdbutton">
+                                    <a href="1">
+                                 <i class="icon iconfont">&#xe610;</i>
+                                    </a>
+                            </td>
+                        <tr>
+                            <td class="middleformtdsecondthird">用户名</td>
+                            <td colspan="2">
+                                <input type="text"  name="username" id="username" class="middleformtdsecondthirdinput"/>
+                            </td>
+                            <td class="middleformtdthird">
+                                <span id="checkusername"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="middleformtdsecondthird">密码</td>
+                            <td colspan="2">
+                                <input type="password" name="userpassword" id="userpassword" value="" class="middleformtdsecondthirdinput" onfocus='this.value=""'/> 
+                            </td>
+                            <td class="middleformtdthird">
+                                <span id="checkuserpassword"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="checkbox" name="nextlogin" value="nextlogin" checked="checked" /><span class="middleformtdfourthspan">记住帐号</span>                                        
+                            </td>
+                            <td class="middleformtdfourth">
+                                <a href="">忘记密码?</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="middleformfifthone">
+                               保存登录状态
+                            </td>
+                            <td colspan="2" class="middleformfifthtwo">
+                                <input type="radio" name="savelimit" value="0" checked="checked" />不保存 
+                                <input type="radio" name="savelimit" value="30" />一个月
+                                <input type="radio" name="savelimit" value="180" />半年  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" id="middleformfifthlogin">
+                                <a onclick="formSubmit()">
+                                    登录
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="middleformtdsixth">
+                                <span class="middleformtdsixthspan">其它登录方式</span>
+                            </td>
+                            <td id="middleformtdsixthsign">
+                                <a href="" id="a1">
+                                   <i class="icon iconfont">&#xe600;</i><!--百度 -->
+                                </a>
+                                <a href="" id="a2">
+                                    <i class="icon iconfont">&#xe605;</i><!--微博 -->
+                                </a>
+                                <a href="" id="a3">
+                                 <i class="icon iconfont">&#xe607;</i><!--知乎-->
+                                </a>
+                            </td>
+                        <tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+         <div id="bottom">
+             <div class="bottomintroduce">
+                <p>Suvan&nbsp;&nbsp;email:13202405189@163.com
+                &nbsp;&nbsp;neusoft school</p>
+            </div>
+            <div class="bottomlink">
+                <a href="../index.html" target="_blank">网站首页</a>
+                <a href="" target="_blank">联系方式</a>
+                <a href="" target="_blank">意见反馈</a>
+                <a href="" target="_blank">帮助</a>
+            </div>
+            <div class="bottomsign">
+                <img src="../image/my.jpeg" width="50" height="50" align="right">
+            </div>
+            <div class="bottomicon">
+                <i class="icon iconfont">&#xe60e;</i><!--爱心-->
+                <i class="icon iconfont">&#xe609;</i><!--WIFI -->
+            </div>
+        </div>
+    </body>
+</html>

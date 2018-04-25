@@ -1,0 +1,183 @@
+ body{
+                margin:0px;
+                border:0px;
+                padding:0px;
+            }
+            #top{
+                position:relative;
+                margin:0px;
+                border:0px;
+                padding:0px;
+
+                width:100%;
+                height:200px;
+                background-image:url(../image/registertop.jpg);
+            }
+            #middle{
+                position:relative;
+                margin:0px;
+                border:0px;
+                padding:0px;
+
+                width:100%;
+                height:600px;
+                background-color:#F5FFFA;
+            }
+            #bottom{
+                position:relative;
+                margin:0px;
+                border:0px;
+                padding:0px;
+
+                width:100%;
+                height:151px;
+                background-color:#000000;
+            }
+
+            /*top位置*/
+            #toppicture{
+                /*可能会放顶部图片*/
+            }
+            #toptitle{
+                position:relative;
+                top:60px;
+            }
+            #toptitle>h1{
+                text-align:center;
+                margin:0px;
+
+                font-size:45px;
+                font-family:YouYuan;
+                color:#E0FFFF ;
+            }
+
+            /*bottom位置*/
+        .bottomintroduce{
+            position:absolute;
+            top:90px;
+            right:0px;
+
+            font-size:20px;
+            font-family:STXinwei;
+            color:#DDDDDD;
+        }
+        .bottomlink{
+            position:absolute;
+            top:60px;
+            left:20px;
+
+            font-size:17px;
+            font-family:Microsoft JhengHei;
+        }
+        .bottomlink>a{
+            text-decoration:none;
+            padding:10px;
+            color:#666666;
+        }
+        .bottomlink>a:hover{
+            color:#FFFAFA;
+        }
+        .bottomsign{
+            position:absolute;
+            right:495px;
+            top:90px;
+        }
+        .bottomicon{
+            position:absolute;/*图标*/
+            top:100px;
+            left:400px;
+            letter-spacing:10px;
+        }
+        .bottomicon>i{
+            color:#888888;
+        }
+        .bottomicon>i:hover{     
+            color:#DDDDDD;
+        }
+
+
+            /*middle位置*/
+              #middleregisterform{
+                margin:0px;
+                border:0px;
+                padding:0px;
+                position:absolute;
+
+                width:1000px;
+                left:460px;
+                top:10px;
+            }
+          
+            /*表格第一列文字*/
+            .middleformtdfirst{
+                width:170px;
+                height:100%;
+
+                font-size:18px;
+                font-family:DFKai-SB;/*标楷体*/
+
+                text-align:right;
+            }
+            /*表格第二列*/
+             .middleformtdsecond{
+                width:300px;
+             }
+             /*表格第三列验证样式*/
+             .middleformtdthird{
+                height:100%;
+                width:600px;
+
+                color:red;
+                font-size:13px;
+                font-family:YouYuan;
+             }
+
+            .middleformtdsecondinput{  /*表格第二列所有输入框适应单元格大小*/
+                height:100%;
+                width:100%;
+            }
+            .middleformtdsubmit{
+                text-align:center;
+            }
+            #middleformtdsecondselectdateformat{
+                height:100%;
+                width:30%;
+            }
+            #middleformtdsecondselectdateyear{
+                height:100%;
+                width:30%;
+            }
+            #middleformtdsecondselectdatemonth{
+                height:100%;
+                width:15%;
+            }
+            #middleformtdsecondselectdateday{
+                height:100%;
+                width:15%;
+            }
+            #middleformtdsecondselectaddcountry{
+                height:100%;
+                width:40%;
+            }
+            #middleformtdsecondselectaddprovince{
+                  height:100%;
+                width:35%;
+            }
+            #middleformtdsecondselectaddcity{
+                  height:100%;
+                width:21%;
+            }
+            /*获取手机验证码*/
+            #noteverify{
+                color:blue;
+            }             
+        /*高级选项*/
+            #middlehighchoice{
+                position:absolute;
+                left:5px;
+                top:5px;
+            }
+            #middlehighchoiceone{
+                display:none;
+                width:400px;
+            }

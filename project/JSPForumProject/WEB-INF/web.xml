@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>OneTry</servlet-name>
+        <servlet-class>servlet.TryServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>OneTry</servlet-name>
+        <url-pattern>/one</url-pattern>
+        <!--指定映射路径-->
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CheckRegister</servlet-name>
+        <servlet-class>servlet.CheckRegister</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>CheckRegister</servlet-name>
+        <url-pattern>/two</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ChkUniqueName</servlet-name>
+        <servlet-class>servlet.ChkUniqueName</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChkUniqueName</servlet-name>   
+        <url-pattern>/three</url-pattern>   
+    </servlet-mapping>
+</web-app>

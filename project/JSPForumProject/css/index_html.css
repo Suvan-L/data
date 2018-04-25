@@ -1,0 +1,263 @@
+   body{
+                margin:0;
+            }
+
+         div#top{
+            height:200px;
+            width:1519px;
+            background-color:#FFFFF0;
+
+            position:relative;
+            float:left;
+         }
+         div#middleshow{
+            height:1000px;
+             width:1519px;
+            background-color:#FDF5E6 ;
+
+            position:relative;
+            float:left;
+         }
+         div#bottom{
+            height:151px;
+             width:1519px;
+            background-color:#000000;
+
+            position:relative;
+            float:left;
+         }
+
+         /*top位置*/
+         div.topsign{
+            position:absolute;
+         }
+         .topspan{
+            position:relative;
+            font-size:20px;
+            font-family:KaiTi;
+            font-style:oblique;/*偏斜体*/
+            left:0px;
+            top:-170px;
+            
+         }
+         div.toptitle{
+            position:absolute;
+            top:-25px;
+            right:10px;
+            font-size:20px;  
+            font-family:MingLiU;   
+        }
+        div.toploginreg{  /*登录注册*/
+            position:absolute;
+            right:10px;
+            top:150px;
+        }
+        .toploginreg>a{
+            text-decoration:none;/*去除下划线*/
+            font-size:25px;
+            font-family:YouYuan;
+            color:black;
+        }
+        .toploginreg>a:hover{
+            /*移动到*/
+            padding:10px;
+            background-color:#FFEFD5;
+            /*设置圆角边框*/
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .topcatalog{
+            position:absolute;
+            top:150px;
+            left:500px;
+            color:#444;
+        }
+        .topcatalog>a{
+            text-decoration:none;
+            font-size:20px;
+            padding:30px
+        }
+        .topcatalog>a:hover{
+            padding:30px;
+            background-color:#FDF5E6;
+            /*设置圆角边框*/
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }
+        .topicon{
+            position:absolute;
+            left:1000px;
+            top:0px;
+            letter-spacing:15px;
+        }
+        .topicon>a{
+            text-decoration:none;
+            color:black;
+        }
+        .topicon>a:hover{
+            color:#FF3333;
+        }
+
+
+        /*top的计时器*/
+        #toptimeshow{
+            position:absolute;
+            font-size:20px;
+            top:175px;
+            left:205px;
+        }
+
+
+
+
+        /*bottom位置*/
+        .bottomintroduce{
+            position:absolute;
+            top:90px;
+            right:0px;
+
+            font-size:20px;
+            font-family:STXinwei;
+            color:#DDDDDD;
+        }
+        .bottomlink{
+            position:absolute;
+            top:60px;
+            left:20px;
+
+            font-size:17px;
+            font-family:Microsoft JhengHei;
+        }
+        .bottomlink>a{
+            text-decoration:none;
+            padding:10px;
+            color:#666666;
+        }
+        .bottomlink>a:hover{
+            color:#FFFAFA;
+        }
+        .bottomsign{
+            position:absolute;
+            right:495px;
+            top:90px;
+        }
+        .bottomicon{
+            position:absolute;/*图标*/
+            top:100px;
+            left:400px;
+            letter-spacing:10px;
+        }
+        .bottomicon>i{
+            color:#888888;
+        }
+        .bottomicon>i:hover{     
+            color:#DDDDDD;
+        }
+        /*计时器*/
+        #counttime{
+            margin:0px;
+            border:0px;
+            padding:0px;
+            width:60px;
+            color:red;
+            background-color:#000000;
+        }
+
+
+        /*middleshow位置*/
+        .middleleftcalalog{
+            position:absolute;
+
+        }
+        .middleleftcalalog li{
+            font-size:20px;
+            padding:10px 20px;
+            font-family:SimHei;
+            float:top;
+        }
+        .middleleftcalalog a{
+            text-decoration:none;
+            padding:10px 20px;
+            color:blue;
+            background-color:#FFE4C4 ;
+        }
+        .middleleftcalalog a:hover{
+            background-color:#FFF8DC;
+        }
+        .middlerollpicture{
+            position:absolute;
+            height:500px;
+            top:170px;
+            left:0px;
+            float:top;
+        }
+        .middleleftcalalog2{
+            position:absolute;
+            top:650px;
+        }
+        .middleleftcalalog2 li{
+            font-size:40px;
+            font-family:YouYuan;
+            padding:10px 20px;
+            list-style:none;/*清除无序列表的标点*/
+            margin:10px 10px 50px -30px;
+            
+        }
+        .middleleftcalalog2 a{
+            text-decoration:none;
+            background-color:#E0FFFF ;
+            border-radius:50%;
+             padding:10px 20px;
+
+        }
+        .middleleftcalalog2 a:hover{
+            background-color:#F0FFFF ;
+            font-size:50px;
+            border-radius:50%;
+            padding:10px 20px;
+        }
+        #middlefirstarticle{
+            position:absolute;
+            top:-20px;
+            left:250px;
+        }
+        #middlefirstarticle>h1{
+            position:relative;
+            left:0px;
+            text-align:center;
+        }
+        #middlefirstarticle>hr{
+            position:relative;
+            top:-15px;
+            left:20px;
+            height:2px;
+            width:1100px;
+            border:none;/*设置没有边框*/
+            border-top:2px dotted red;/*设置横线样式*/
+
+        }
+        #middlefirstarticle>p{
+            position:relative;
+            top:-10px;
+            left:100px;
+            font-size:20px;
+        }
+        #middleform{
+            position:absolute;
+            margin:0px;
+            top:130px;
+            left:260px;
+        }
+      
+       /*top的计时器2*/
+        #middleresiduetime{
+            position:absolute;
+            font-size:20px;
+            font-family:YouYuan;
+            top:965px;
+            left:1315px;
+        }
