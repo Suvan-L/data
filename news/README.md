@@ -9,6 +9,11 @@
 #### [知乎](https://www.zhihu.com/)
 + 问题：[作为程序员，你关注哪些国外 IT 网站？](https://www.zhihu.com/question/26155575)
 
+#### [并发编程网](http://ifeve.com/category/java/)
+
+#### [码农网](http://www.codeceo.com/)
+
+#### [v2ex](https://www.v2ex.com/)
 
 ## 国外社区
 #### [stackoverflow](https://stackoverflow.com/)
