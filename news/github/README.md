@@ -13,3 +13,7 @@
 
 ## 翻译文档
 - [翻译自Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask Mega-Tutorial教程](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
+
+
+## PDF 类书籍
+- [免费的计算机编程类中文书籍，欢迎投稿 http://weibo.com/justjavac](https://github.com/lanxuezaipiao/free-programming-books-zh_CN)
