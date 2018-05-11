@@ -10,6 +10,7 @@
 ## 服务器
 - [最全面，最深入的nginx从入门到精通的教程 https://nginx.rails365.net](https://github.com/hfpp2012/nginx-tutorial)
 - [Linux工具快速教程 http://linuxtools-rst.readthedocs.org…](https://github.com/me115/linuxtools_rst)
+- [Tomcat源码解读](https://github.com/jackfo/tomcat-exp)
 
 ## 翻译文档
 - [翻译自Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask Mega-Tutorial教程](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
