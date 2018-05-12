@@ -3,6 +3,7 @@
 ## Java 学习笔记
 - [This is a learning note | Java基础，JVM，JDK源码解析](https://github.com/wususu/Notes)
 - [Jdk1.8源码解析](https://github.com/wupeixuan/JDKSourceCode1.8)
+- [Java 基础，并发，算法](https://github.com/crossoverJie/Java-Interview)
 
 ## Java 框架教程
 - [about learning Spring Boot via examples. Spring Boot 技术栈示例代码，快速简单上手教程。 http://www.ityouknow.com/](https://github.com/ityouknow/spring-boot-examples)
