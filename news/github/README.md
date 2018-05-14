@@ -5,6 +5,7 @@
 - [Jdk1.8源码解析](https://github.com/wupeixuan/JDKSourceCode1.8)
 - [Java 基础，并发，算法](https://github.com/crossoverJie/Java-Interview)
 - [旨在打造在线最佳的 Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web](https://github.com/brianway/java-learning)
+- [📚 技术面试需要掌握的基础知识整理，欢迎编辑~](https://github.com/CyC2018/Interview-Notebook)
 
 ## Java 框架教程
 - [about learning Spring Boot via examples. Spring Boot 技术栈示例代码，快速简单上手教程。 http://www.ityouknow.com/](https://github.com/ityouknow/spring-boot-examples)
