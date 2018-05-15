@@ -20,6 +20,7 @@
 
 ## 翻译文档
 - [翻译自Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask Mega-Tutorial教程](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
+- [Go 语言官方教程中文版 http://tour.go-zh.org](Go 语言官方教程中文版 http://tour.go-zh.org)
 
 
 ## PDF 类书籍
