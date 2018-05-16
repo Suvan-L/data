@@ -1,4 +1,4 @@
-# Github 文档类项目
+# Github 优质文档类项目
 
 ## Java 学习笔记
 - [This is a learning note | Java基础，JVM，JDK源码解析](https://github.com/wususu/Notes)
@@ -20,7 +20,7 @@
 
 ## 翻译文档
 - [翻译自Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask Mega-Tutorial教程](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
-- [Go 语言官方教程中文版 http://tour.go-zh.org](Go 语言官方教程中文版 http://tour.go-zh.org)
+- [Go 语言官方教程中文版 http://tour.go-zh.org](https://github.com/Go-zh/tour)
 
 
 ## PDF 类书籍
