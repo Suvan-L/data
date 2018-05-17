@@ -6,6 +6,8 @@
 - [Java 基础，并发，算法](https://github.com/crossoverJie/Java-Interview)
 - [旨在打造在线最佳的 Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web](https://github.com/brianway/java-learning)
 - [📚 技术面试需要掌握的基础知识整理，欢迎编辑~](https://github.com/CyC2018/Interview-Notebook)
+- [常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/scalad/Note)
+
 
 ## Java 框架教程
 - [about learning Spring Boot via examples. Spring Boot 技术栈示例代码，快速简单上手教程。 http://www.ityouknow.com/](https://github.com/ityouknow/spring-boot-examples)
@@ -25,3 +27,4 @@
 
 ## PDF 类书籍
 - [免费的计算机编程类中文书籍，欢迎投稿 http://weibo.com/justjavac](https://github.com/lanxuezaipiao/free-programming-books-zh_CN)
+- [计算机电子书pdf整理 http://it-ebooks.flygon.net/](https://github.com/fuhmmin/it-ebooks-cn)
