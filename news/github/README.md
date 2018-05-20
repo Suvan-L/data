@@ -12,9 +12,13 @@
 ## Java 框架教程
 - [about learning Spring Boot via examples. Spring Boot 技术栈示例代码，快速简单上手教程。 http://www.ityouknow.com/](https://github.com/ityouknow/spring-boot-examples)
 
+
 ## 前端
 - [前端入门和进阶学习笔记，超详细的前端学习图文教程。从零开始学前端，做一个web全栈工程师。每日更新...](https://github.com/smyhvae/Web)
 - [个人博客-关于前端工程](https://github.com/fouber/blog)
+
+## 入门类文档
+- [覃健祥的学习笔记，各种几十分钟入门的文档](https://github.com/qinjx/30min_guides)
 
 ## 服务器
 - [最全面，最深入的nginx从入门到精通的教程 https://nginx.rails365.net](https://github.com/hfpp2012/nginx-tutorial)
