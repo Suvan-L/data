@@ -29,6 +29,7 @@
 ## 翻译文档
 - [翻译自Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask Mega-Tutorial教程](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
 - [Go 语言官方教程中文版 http://tour.go-zh.org](https://github.com/Go-zh/tour)
+- [《The Way to Go》中文译本，中文正式名《Go 入门指南》](https://github.com/Unknwon/the-way-to-go_ZH_CN)
 
 
 ## PDF 类书籍
