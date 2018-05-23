@@ -35,6 +35,7 @@
 ## PDF 类书籍
 - [免费的计算机编程类中文书籍，欢迎投稿 http://weibo.com/justjavac](https://github.com/lanxuezaipiao/free-programming-books-zh_CN)
 - [计算机电子书pdf整理 http://it-ebooks.flygon.net/](https://github.com/fuhmmin/it-ebooks-cn)
+- [yuanliangding/books - 我的阅历"](https://github.com/yuanliangding/books)
 
 ## 收集类项目
 - [:octocat: A collection of APIs - 各种 API](https://github.com/SkiaWorks/Awesome_APIs)
