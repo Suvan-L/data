@@ -15,6 +15,7 @@
 
 ## Java 开源书籍
 - [《Java工程师修炼之道》](https://github.com/superhj1987/pragmatic-java-engineer)
+- [学习资源整合 - effective-resourses](https://github.com/wususu/effective-resourses)
 
 
 ## 前端
