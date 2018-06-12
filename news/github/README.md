@@ -8,6 +8,7 @@
 - [📚 技术面试需要掌握的基础知识整理，欢迎编辑~](https://github.com/CyC2018/Interview-Notebook)
 - [常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/scalad/Note)
 - [芋道源码](https://github.com/YunaiV/Blog)
+- [编写可读代码的艺术 - 更新中](https://github.com/biezhi/write-readable-code)
 
 
 ## Java 框架教程
