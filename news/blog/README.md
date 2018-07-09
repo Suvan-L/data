@@ -10,3 +10,7 @@
 
 ### T2 噬菌体
 - [一致性哈希算法及其在分布式系统中的应用](http://www.cnblogs.com/leoo2sk/archive/2011/08/11/consistent-hashing-intro.html)
+
+### 阮一峰
+- [DDOS 攻击防范教程](http://www.ruanyifeng.com/blog/2018/06/ddos.html)
+
