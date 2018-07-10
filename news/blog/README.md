@@ -4,6 +4,9 @@
 ### 那个天真的人
 - [网络知识汇总](https://blog.csdn.net/yanyan19880509/article/details/80788918)
 
+### luoweifu
+- [java:从消息机制谈到观察者模式](https://blog.csdn.net/luoweifu/article/details/45702135)
+
 ## 独立博客
 ### 徐靖峰
 - [天池中间件大赛dubboMesh优化总结（qps从1000到6850）](https://www.cnkirito.moe/)
