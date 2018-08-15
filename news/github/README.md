@@ -7,6 +7,7 @@
 - [旨在打造在线最佳的 Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web](https://github.com/brianway/java-learning)
 - [📚 技术面试需要掌握的基础知识整理，欢迎编辑~](https://github.com/CyC2018/Interview-Notebook)
 - [常规Java工具，算法，加密，数据库，面试题，源代码分析，解决方案](https://github.com/scalad/Note)
+- [Java 核心知识库 JCSprout](https://github.com/crossoverJie/JCSprout)
 - [芋道源码](https://github.com/YunaiV/Blog)
 - [编写可读代码的艺术 - 更新中](https://github.com/biezhi/write-readable-code)
 
